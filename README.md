@@ -12,4 +12,5 @@ Here is a list of stuff:
 Here is some code:
     import numpy as np
     x = np.arange(10)
+    print x
 
