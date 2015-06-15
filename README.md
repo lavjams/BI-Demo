@@ -10,7 +10,7 @@ Here is a list of stuff:
 * List Stuff 2
 
 Here is some code:
-    import numpy as np
-    x = np.arange(10)
-    print x
+        $ import numpy as np
+        $ x = np.arange(10)
+        $ print x
 
