@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #Imports necessary functions
 import sys
 

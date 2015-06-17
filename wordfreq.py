@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #File: wordfreq.py
 #Purpose: Meant to frequency of words in a file with more than three letters, ordered by frequency
 
