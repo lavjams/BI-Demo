@@ -23,15 +23,15 @@ split = openfile.split() #Splits by white space
 #Adds each word and frequency in current line to dictionary
 for c in range(0, len(split)):
 	#Skips word if contains 3 letters or less
-	if len(split[c]) <= 3:
+	if len(split[c].lower()) <= 3:
 		continue
 		
 	#Adds word if not yet in dictionary
-	if split[c] not in words:
-		words[split[c]] = 1
+	if split[c].lower() not in words:
+		words[split[c].lower()] = 1
 	#Increments frequency if word already in dictionary
-	elif split[c] in words:
-		words[split[c]] = words[split[c]] + 1
+	elif split[c].lower() in words:
+		words[split[c].lower()] = words[split[c].lower()] + 1
 				
 #Below sorts dictionary entries
 for d in range(0, len(words)):
@@ -49,8 +49,7 @@ for d in range(0, len(words)):
 	
 	#Below prints most frequent word found
 	print(currword + ': ' + str(currfreq))
-	if d > 20:
-		break
+
 	
 			
 	
